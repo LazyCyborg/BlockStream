@@ -1,0 +1,27 @@
+{
+  "experiment_type": "full",
+  "num_loops": 5,
+  "block_durations": {
+    "A1": 45,
+    "A2": 45,
+    "B1": 45,
+    "B2": 45,
+    "Lag": 5,
+    "Intermission": 60
+  },
+  "audio_config": {
+    "sample_rate": 44100,
+    "channels": 1,
+    "format": "16bit"
+  },
+  "eeg_config": {
+    "require_brainvision": true,
+    "markers": true
+  },
+  "directories": {
+    "base": "experiment_data",
+    "input": "experiment_data/input",
+    "output": "experiment_data/output",
+    "temp": "experiment_data/temp"
+  }
+}

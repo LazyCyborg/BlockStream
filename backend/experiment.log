@@ -1,0 +1,1010 @@
+2024-11-01 16:22:33,755 - INFO - Using Simulated EEG Recorder
+2024-11-01 16:22:33,755 - INFO - Initialized with default configuration.
+2024-11-01 16:22:34,028 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.14:5001
+2024-11-01 16:22:34,028 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-01 16:25:47,875 - INFO - Received GET request for /api/get-config
+2024-11-01 16:25:47,875 - INFO - Configuration returned: {'success': True, 'config': {'experimentType': 'full', 'numLoops': 5, 'blockDurations': {'A1': 45, 'A2': 45, 'B1': 45, 'B2': 45, 'Lag': 5, 'Intermission': 60}, 'audioConfig': {'sample_rate': 44100, 'channels': 1, 'format': '16bit'}, 'eegConfig': {'requireBrainvision': True, 'markers': True}, 'directories': {'base': 'experiment_data', 'input': 'experiment_data/input', 'output': 'experiment_data/output', 'temp': 'experiment_data/temp'}}}
+2024-11-01 16:25:47,875 - INFO - 127.0.0.1 - - [01/Nov/2024 16:25:47] "GET /api/get-config HTTP/1.1" 200 -
+2024-11-01 16:25:47,876 - INFO - Received GET request for /api/get-config
+2024-11-01 16:25:47,876 - INFO - Configuration returned: {'success': True, 'config': {'experimentType': 'full', 'numLoops': 5, 'blockDurations': {'A1': 45, 'A2': 45, 'B1': 45, 'B2': 45, 'Lag': 5, 'Intermission': 60}, 'audioConfig': {'sample_rate': 44100, 'channels': 1, 'format': '16bit'}, 'eegConfig': {'requireBrainvision': True, 'markers': True}, 'directories': {'base': 'experiment_data', 'input': 'experiment_data/input', 'output': 'experiment_data/output', 'temp': 'experiment_data/temp'}}}
+2024-11-01 16:25:47,877 - INFO - 127.0.0.1 - - [01/Nov/2024 16:25:47] "GET /api/get-config HTTP/1.1" 200 -
+2024-11-01 16:25:48,883 - INFO - Received GET request for /api/status
+2024-11-01 16:25:48,884 - INFO - 127.0.0.1 - - [01/Nov/2024 16:25:48] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:25:49,882 - INFO - Received GET request for /api/status
+2024-11-01 16:25:49,884 - INFO - 127.0.0.1 - - [01/Nov/2024 16:25:49] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:25:50,877 - INFO - Received GET request for /api/status
+2024-11-01 16:25:50,878 - INFO - 127.0.0.1 - - [01/Nov/2024 16:25:50] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:25:51,879 - INFO - Received GET request for /api/status
+2024-11-01 16:25:51,882 - INFO - 127.0.0.1 - - [01/Nov/2024 16:25:51] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:25:52,879 - INFO - Received GET request for /api/status
+2024-11-01 16:25:52,879 - INFO - 127.0.0.1 - - [01/Nov/2024 16:25:52] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:25:53,878 - INFO - Received GET request for /api/status
+2024-11-01 16:25:53,879 - INFO - 127.0.0.1 - - [01/Nov/2024 16:25:53] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:25:54,877 - INFO - Received GET request for /api/status
+2024-11-01 16:25:54,878 - INFO - 127.0.0.1 - - [01/Nov/2024 16:25:54] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:25:55,884 - INFO - Received GET request for /api/status
+2024-11-01 16:25:55,885 - INFO - 127.0.0.1 - - [01/Nov/2024 16:25:55] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:25:56,878 - INFO - Received GET request for /api/status
+2024-11-01 16:25:56,879 - INFO - 127.0.0.1 - - [01/Nov/2024 16:25:56] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:25:57,878 - INFO - Received GET request for /api/status
+2024-11-01 16:25:57,879 - INFO - 127.0.0.1 - - [01/Nov/2024 16:25:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:25:58,885 - INFO - Received GET request for /api/status
+2024-11-01 16:25:58,888 - INFO - 127.0.0.1 - - [01/Nov/2024 16:25:58] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:25:59,883 - INFO - Received GET request for /api/status
+2024-11-01 16:25:59,885 - INFO - 127.0.0.1 - - [01/Nov/2024 16:25:59] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:00,881 - INFO - Received GET request for /api/status
+2024-11-01 16:26:00,882 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:00] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:01,886 - INFO - Received GET request for /api/status
+2024-11-01 16:26:01,888 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:01] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:02,884 - INFO - Received GET request for /api/status
+2024-11-01 16:26:02,885 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:02] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:03,884 - INFO - Received GET request for /api/status
+2024-11-01 16:26:03,886 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:03] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:04,881 - INFO - Received GET request for /api/status
+2024-11-01 16:26:04,882 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:04] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:06,020 - INFO - Received GET request for /api/status
+2024-11-01 16:26:06,024 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:06] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:06,882 - INFO - Received GET request for /api/status
+2024-11-01 16:26:06,883 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:06] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:07,878 - INFO - Received GET request for /api/status
+2024-11-01 16:26:07,879 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:07] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:08,880 - INFO - Received GET request for /api/status
+2024-11-01 16:26:08,881 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:08] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:09,882 - INFO - Received GET request for /api/status
+2024-11-01 16:26:09,883 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:09] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:10,885 - INFO - Received GET request for /api/status
+2024-11-01 16:26:10,887 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:10] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:11,877 - INFO - Received GET request for /api/status
+2024-11-01 16:26:11,878 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:11] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:12,883 - INFO - Received GET request for /api/status
+2024-11-01 16:26:12,886 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:12] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:13,879 - INFO - Received GET request for /api/status
+2024-11-01 16:26:13,880 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:13] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:15,736 - INFO - Received GET request for /api/status
+2024-11-01 16:26:15,737 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:15] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:16,737 - INFO - Received GET request for /api/status
+2024-11-01 16:26:16,737 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:16] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:17,737 - INFO - Received GET request for /api/status
+2024-11-01 16:26:17,737 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:17] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:18,739 - INFO - Received GET request for /api/status
+2024-11-01 16:26:18,740 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:18] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:19,739 - INFO - Received GET request for /api/status
+2024-11-01 16:26:19,740 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:19] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:20,742 - INFO - Received GET request for /api/status
+2024-11-01 16:26:20,743 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:20] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:21,737 - INFO - Received GET request for /api/status
+2024-11-01 16:26:21,738 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:21] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:22,736 - INFO - Received GET request for /api/status
+2024-11-01 16:26:22,737 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:22] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:23,740 - INFO - Received GET request for /api/status
+2024-11-01 16:26:23,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:23] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:24,737 - INFO - Received GET request for /api/status
+2024-11-01 16:26:24,738 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:24] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:25,741 - INFO - Received GET request for /api/status
+2024-11-01 16:26:25,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:25] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:26,742 - INFO - Received GET request for /api/status
+2024-11-01 16:26:26,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:26] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:27,737 - INFO - Received GET request for /api/status
+2024-11-01 16:26:27,738 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:27] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:28,738 - INFO - Received GET request for /api/status
+2024-11-01 16:26:28,739 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:28] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:29,741 - INFO - Received GET request for /api/status
+2024-11-01 16:26:29,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:29] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:30,743 - INFO - Received GET request for /api/status
+2024-11-01 16:26:30,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:30] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:31,743 - INFO - Received GET request for /api/status
+2024-11-01 16:26:31,745 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:31] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:32,739 - INFO - Received GET request for /api/status
+2024-11-01 16:26:32,739 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:32] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:33,738 - INFO - Received GET request for /api/status
+2024-11-01 16:26:33,739 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:33] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:34,739 - INFO - Received GET request for /api/status
+2024-11-01 16:26:34,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:34] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:35,739 - INFO - Received GET request for /api/status
+2024-11-01 16:26:35,739 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:35] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:36,738 - INFO - Received GET request for /api/status
+2024-11-01 16:26:36,739 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:36] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:37,742 - INFO - Received GET request for /api/status
+2024-11-01 16:26:37,743 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:37] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:38,740 - INFO - Received GET request for /api/status
+2024-11-01 16:26:38,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:38] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:39,736 - INFO - Received GET request for /api/status
+2024-11-01 16:26:39,736 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:39] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:40,737 - INFO - Received GET request for /api/status
+2024-11-01 16:26:40,738 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:40] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:41,736 - INFO - Received GET request for /api/status
+2024-11-01 16:26:41,737 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:41] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:42,735 - INFO - Received GET request for /api/status
+2024-11-01 16:26:42,736 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:42] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:43,736 - INFO - Received GET request for /api/status
+2024-11-01 16:26:43,737 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:43] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:44,736 - INFO - Received GET request for /api/status
+2024-11-01 16:26:44,737 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:44] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:45,737 - INFO - Received GET request for /api/status
+2024-11-01 16:26:45,737 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:45] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:46,737 - INFO - Received GET request for /api/status
+2024-11-01 16:26:46,738 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:46] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:47,736 - INFO - Received GET request for /api/status
+2024-11-01 16:26:47,736 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:47] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:48,736 - INFO - Received GET request for /api/status
+2024-11-01 16:26:48,737 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:48] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:49,740 - INFO - Received GET request for /api/status
+2024-11-01 16:26:49,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:49] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:50,740 - INFO - Received GET request for /api/status
+2024-11-01 16:26:50,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:50] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:51,741 - INFO - Received GET request for /api/status
+2024-11-01 16:26:51,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:51] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:52,742 - INFO - Received GET request for /api/status
+2024-11-01 16:26:52,743 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:52] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:53,741 - INFO - Received GET request for /api/status
+2024-11-01 16:26:53,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:53] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:54,741 - INFO - Received GET request for /api/status
+2024-11-01 16:26:54,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:54] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:55,741 - INFO - Received GET request for /api/status
+2024-11-01 16:26:55,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:55] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:56,744 - INFO - Received GET request for /api/status
+2024-11-01 16:26:56,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:56] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:57,742 - INFO - Received GET request for /api/status
+2024-11-01 16:26:57,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:58,743 - INFO - Received GET request for /api/status
+2024-11-01 16:26:58,745 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:58] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:26:59,741 - INFO - Received GET request for /api/status
+2024-11-01 16:26:59,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:26:59] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:27:00,743 - INFO - Received GET request for /api/status
+2024-11-01 16:27:00,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:27:00] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:27:01,740 - INFO - Received GET request for /api/status
+2024-11-01 16:27:01,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:27:01] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:27:02,741 - INFO - Received GET request for /api/status
+2024-11-01 16:27:02,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:27:02] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:27:03,743 - INFO - Received GET request for /api/status
+2024-11-01 16:27:03,745 - INFO - 127.0.0.1 - - [01/Nov/2024 16:27:03] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:27:04,742 - INFO - Received GET request for /api/status
+2024-11-01 16:27:04,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:27:04] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:27:05,736 - INFO - Received GET request for /api/status
+2024-11-01 16:27:05,737 - INFO - 127.0.0.1 - - [01/Nov/2024 16:27:05] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:27:06,742 - INFO - Received GET request for /api/status
+2024-11-01 16:27:06,743 - INFO - 127.0.0.1 - - [01/Nov/2024 16:27:06] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:27:07,743 - INFO - Received GET request for /api/status
+2024-11-01 16:27:07,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:27:07] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:27:08,743 - INFO - Received GET request for /api/status
+2024-11-01 16:27:08,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:27:08] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:27:09,740 - INFO - Received GET request for /api/status
+2024-11-01 16:27:09,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:27:09] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:27:10,742 - INFO - Received GET request for /api/status
+2024-11-01 16:27:10,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:27:10] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:27:11,742 - INFO - Received GET request for /api/status
+2024-11-01 16:27:11,743 - INFO - 127.0.0.1 - - [01/Nov/2024 16:27:11] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:27:12,740 - INFO - Received GET request for /api/status
+2024-11-01 16:27:12,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:27:12] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:27:13,742 - INFO - Received GET request for /api/status
+2024-11-01 16:27:13,743 - INFO - 127.0.0.1 - - [01/Nov/2024 16:27:13] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:27:57,743 - INFO - Received GET request for /api/status
+2024-11-01 16:27:57,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:27:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:28:57,741 - INFO - Received GET request for /api/status
+2024-11-01 16:28:57,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:28:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:12,808 - INFO - Received GET request for /api/get-config
+2024-11-01 16:29:12,808 - INFO - Configuration returned: {'success': True, 'config': {'experimentType': 'full', 'numLoops': 5, 'blockDurations': {'A1': 45, 'A2': 45, 'B1': 45, 'B2': 45, 'Lag': 5, 'Intermission': 60}, 'audioConfig': {'sample_rate': 44100, 'channels': 1, 'format': '16bit'}, 'eegConfig': {'requireBrainvision': True, 'markers': True}, 'directories': {'base': 'experiment_data', 'input': 'experiment_data/input', 'output': 'experiment_data/output', 'temp': 'experiment_data/temp'}}}
+2024-11-01 16:29:12,809 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:12] "GET /api/get-config HTTP/1.1" 200 -
+2024-11-01 16:29:12,810 - INFO - Received GET request for /api/get-config
+2024-11-01 16:29:12,810 - INFO - Configuration returned: {'success': True, 'config': {'experimentType': 'full', 'numLoops': 5, 'blockDurations': {'A1': 45, 'A2': 45, 'B1': 45, 'B2': 45, 'Lag': 5, 'Intermission': 60}, 'audioConfig': {'sample_rate': 44100, 'channels': 1, 'format': '16bit'}, 'eegConfig': {'requireBrainvision': True, 'markers': True}, 'directories': {'base': 'experiment_data', 'input': 'experiment_data/input', 'output': 'experiment_data/output', 'temp': 'experiment_data/temp'}}}
+2024-11-01 16:29:12,810 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:12] "GET /api/get-config HTTP/1.1" 200 -
+2024-11-01 16:29:13,815 - INFO - Received GET request for /api/status
+2024-11-01 16:29:13,815 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:13] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:14,810 - INFO - Received GET request for /api/status
+2024-11-01 16:29:14,810 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:14] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:15,816 - INFO - Received GET request for /api/status
+2024-11-01 16:29:15,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:15] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:16,814 - INFO - Received GET request for /api/status
+2024-11-01 16:29:16,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:16] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:17,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:17,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:17] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:18,814 - INFO - Received GET request for /api/status
+2024-11-01 16:29:18,815 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:18] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:19,324 - INFO - Received POST request to /api/initialize
+2024-11-01 16:29:19,325 - INFO - Session directory created at experiment_data/output/session_20241101_162919
+2024-11-01 16:29:19,325 - INFO - Tone file created at experiment_data/output/session_20241101_162919/tone.wav
+2024-11-01 16:29:19,325 - INFO - Experiment system initialized successfully
+2024-11-01 16:29:19,326 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:19] "POST /api/initialize HTTP/1.1" 200 -
+2024-11-01 16:29:19,331 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:19] "OPTIONS /api/start HTTP/1.1" 200 -
+2024-11-01 16:29:19,335 - INFO - Received POST request to /api/start
+2024-11-01 16:29:19,335 - INFO - Received data: {'config': {'audioConfig': {'channels': 1, 'format': '16bit', 'sample_rate': 44100}, 'blockDurations': {'A1': 45, 'A2': 45, 'B1': 45, 'B2': 45, 'Intermission': 60, 'Lag': 5}, 'directories': {'base': 'experiment_data', 'input': 'experiment_data/input', 'output': 'experiment_data/output', 'temp': 'experiment_data/temp'}, 'eegConfig': {'markers': True, 'requireBrainvision': True}, 'experimentType': 'full', 'numLoops': 5}}
+2024-11-01 16:29:19,336 - INFO - [SIMULATION] Started EEG recording: experiment_data/output/session_20241101_162919/Experiment_20241101_162919.eeg
+2024-11-01 16:29:19,336 - INFO - Started EEG recording at experiment_data/output/session_20241101_162919/Experiment_20241101_162919.eeg
+2024-11-01 16:29:19,336 - INFO - Starting experiment blocks execution
+2024-11-01 16:29:19,337 - INFO - Experiment started successfully
+2024-11-01 16:29:19,337 - INFO - Starting loop 1/5
+2024-11-01 16:29:19,337 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:19] "POST /api/start HTTP/1.1" 200 -
+2024-11-01 16:29:19,337 - INFO - Running block: A1
+2024-11-01 16:29:19,818 - INFO - Received GET request for /api/status
+2024-11-01 16:29:19,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:19] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:20,812 - INFO - Received GET request for /api/status
+2024-11-01 16:29:20,813 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:20] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:21,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:21,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:21] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:22,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:22,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:22] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:23,812 - INFO - Received GET request for /api/status
+2024-11-01 16:29:23,813 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:23] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:24,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:24,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:24] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:25,815 - INFO - Received GET request for /api/status
+2024-11-01 16:29:25,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:25] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:26,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:26,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:26] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:27,818 - INFO - Received GET request for /api/status
+2024-11-01 16:29:27,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:27] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:28,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:28,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:28] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:29,818 - INFO - Received GET request for /api/status
+2024-11-01 16:29:29,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:29] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:30,816 - INFO - Received GET request for /api/status
+2024-11-01 16:29:30,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:30] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:31,816 - INFO - Received GET request for /api/status
+2024-11-01 16:29:31,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:31] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:32,818 - INFO - Received GET request for /api/status
+2024-11-01 16:29:32,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:32] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:33,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:33,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:33] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:34,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:34,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:34] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:35,815 - INFO - Received GET request for /api/status
+2024-11-01 16:29:35,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:35] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:36,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:36,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:36] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:37,818 - INFO - Received GET request for /api/status
+2024-11-01 16:29:37,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:37] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:38,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:38,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:38] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:39,820 - INFO - Received GET request for /api/status
+2024-11-01 16:29:39,822 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:39] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:40,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:40,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:40] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:41,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:41,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:41] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:42,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:42,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:42] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:43,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:43,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:43] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:44,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:44,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:44] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:45,816 - INFO - Received GET request for /api/status
+2024-11-01 16:29:45,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:45] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:46,816 - INFO - Received GET request for /api/status
+2024-11-01 16:29:46,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:46] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:47,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:47,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:47] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:48,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:48,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:48] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:49,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:49,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:49] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:50,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:50,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:50] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:51,816 - INFO - Received GET request for /api/status
+2024-11-01 16:29:51,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:51] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:52,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:52,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:52] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:53,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:53,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:53] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:54,819 - INFO - Received GET request for /api/status
+2024-11-01 16:29:54,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:54] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:55,820 - INFO - Received GET request for /api/status
+2024-11-01 16:29:55,822 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:55] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:56,818 - INFO - Received GET request for /api/status
+2024-11-01 16:29:56,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:56] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:57,748 - INFO - Received GET request for /api/status
+2024-11-01 16:29:57,749 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:57,815 - INFO - Received GET request for /api/status
+2024-11-01 16:29:57,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:58,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:58,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:58] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:29:59,817 - INFO - Received GET request for /api/status
+2024-11-01 16:29:59,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:29:59] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:00,815 - INFO - Received GET request for /api/status
+2024-11-01 16:30:00,816 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:00] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:01,815 - INFO - Received GET request for /api/status
+2024-11-01 16:30:01,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:01] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:02,813 - INFO - Received GET request for /api/status
+2024-11-01 16:30:02,815 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:02] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:03,817 - INFO - Received GET request for /api/status
+2024-11-01 16:30:03,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:03] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:04,345 - INFO - Completed block: A1
+2024-11-01 16:30:04,346 - INFO - Running block: A2
+2024-11-01 16:30:04,817 - INFO - Received GET request for /api/status
+2024-11-01 16:30:04,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:04] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:05,815 - INFO - Received GET request for /api/status
+2024-11-01 16:30:05,816 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:05] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:06,817 - INFO - Received GET request for /api/status
+2024-11-01 16:30:06,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:06] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:07,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:07,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:07] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:08,817 - INFO - Received GET request for /api/status
+2024-11-01 16:30:08,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:08] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:09,816 - INFO - Received GET request for /api/status
+2024-11-01 16:30:09,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:09] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:10,815 - INFO - Received GET request for /api/status
+2024-11-01 16:30:10,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:10] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:11,817 - INFO - Received GET request for /api/status
+2024-11-01 16:30:11,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:11] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:12,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:12,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:12] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:13,817 - INFO - Received GET request for /api/status
+2024-11-01 16:30:13,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:13] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:14,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:14,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:14] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:15,815 - INFO - Received GET request for /api/status
+2024-11-01 16:30:15,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:15] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:16,816 - INFO - Received GET request for /api/status
+2024-11-01 16:30:16,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:16] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:17,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:17,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:17] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:18,817 - INFO - Received GET request for /api/status
+2024-11-01 16:30:18,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:18] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:19,817 - INFO - Received GET request for /api/status
+2024-11-01 16:30:19,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:19] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:20,815 - INFO - Received GET request for /api/status
+2024-11-01 16:30:20,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:20] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:21,817 - INFO - Received GET request for /api/status
+2024-11-01 16:30:21,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:21] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:22,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:22,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:22] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:23,817 - INFO - Received GET request for /api/status
+2024-11-01 16:30:23,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:23] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:24,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:24,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:24] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:25,817 - INFO - Received GET request for /api/status
+2024-11-01 16:30:25,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:25] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:26,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:26,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:26] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:27,817 - INFO - Received GET request for /api/status
+2024-11-01 16:30:27,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:27] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:28,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:28,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:28] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:29,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:29,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:29] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:30,817 - INFO - Received GET request for /api/status
+2024-11-01 16:30:30,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:30] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:31,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:31,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:31] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:32,817 - INFO - Received GET request for /api/status
+2024-11-01 16:30:32,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:32] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:33,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:33,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:33] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:34,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:34,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:34] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:35,817 - INFO - Received GET request for /api/status
+2024-11-01 16:30:35,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:35] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:36,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:36,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:36] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:37,816 - INFO - Received GET request for /api/status
+2024-11-01 16:30:37,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:37] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:38,817 - INFO - Received GET request for /api/status
+2024-11-01 16:30:38,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:38] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:39,817 - INFO - Received GET request for /api/status
+2024-11-01 16:30:39,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:39] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:40,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:40,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:40] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:41,817 - INFO - Received GET request for /api/status
+2024-11-01 16:30:41,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:41] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:42,816 - INFO - Received GET request for /api/status
+2024-11-01 16:30:42,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:42] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:43,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:43,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:43] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:44,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:44,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:44] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:45,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:45,821 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:45] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:46,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:46,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:46] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:47,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:47,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:47] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:48,810 - INFO - Received GET request for /api/status
+2024-11-01 16:30:48,811 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:48] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:49,276 - INFO - Received POST request to /api/stop
+2024-11-01 16:30:49,355 - INFO - Completed block: A2
+2024-11-01 16:30:49,355 - INFO - Experiment stopped, breaking out of block loop
+2024-11-01 16:30:49,356 - INFO - Completed loop 1/5
+2024-11-01 16:30:49,356 - INFO - Experiment stopped, breaking out of loop
+2024-11-01 16:30:49,356 - INFO - Experiment blocks execution completed
+2024-11-01 16:30:49,356 - INFO - [SIMULATION] Stopped EEG recording
+2024-11-01 16:30:49,356 - INFO - EEG recording stopped.
+2024-11-01 16:30:49,357 - INFO - Stopped experiment
+2024-11-01 16:30:49,358 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:49] "POST /api/stop HTTP/1.1" 200 -
+2024-11-01 16:30:49,817 - INFO - Received GET request for /api/status
+2024-11-01 16:30:49,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:49] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:50,816 - INFO - Received GET request for /api/status
+2024-11-01 16:30:50,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:50] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:51,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:51,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:51] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:52,814 - INFO - Received GET request for /api/status
+2024-11-01 16:30:52,815 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:52] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:53,816 - INFO - Received GET request for /api/status
+2024-11-01 16:30:53,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:53] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:54,512 - INFO - Received POST request to /api/process-audio
+2024-11-01 16:30:54,513 - INFO - Audio processing started
+2024-11-01 16:30:54,514 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:54] "POST /api/process-audio HTTP/1.1" 200 -
+2024-11-01 16:30:54,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:54,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:54] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:55,813 - INFO - Received GET request for /api/status
+2024-11-01 16:30:55,814 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:55] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:56,814 - INFO - Received GET request for /api/status
+2024-11-01 16:30:56,814 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:56] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:57,484 - ERROR - Failed to load audio file block_A1_20241101_163004.wav: Couldn't find appropriate backend to handle uri experiment_data/output/session_20241101_162919/block_A1_20241101_163004.wav and format None.
+2024-11-01 16:30:57,484 - ERROR - Failed to process file block_A1_20241101_163004.wav: Couldn't find appropriate backend to handle uri experiment_data/output/session_20241101_162919/block_A1_20241101_163004.wav and format None.
+2024-11-01 16:30:57,484 - ERROR - Failed to load audio file block_A2_20241101_163049.wav: Couldn't find appropriate backend to handle uri experiment_data/output/session_20241101_162919/block_A2_20241101_163049.wav and format None.
+2024-11-01 16:30:57,484 - ERROR - Failed to process file block_A2_20241101_163049.wav: Couldn't find appropriate backend to handle uri experiment_data/output/session_20241101_162919/block_A2_20241101_163049.wav and format None.
+2024-11-01 16:30:57,485 - WARNING - No data to save
+2024-11-01 16:30:57,486 - ERROR - Error processing audio: 'Filename'
+2024-11-01 16:30:57,744 - INFO - Received GET request for /api/status
+2024-11-01 16:30:57,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:57,815 - INFO - Received GET request for /api/status
+2024-11-01 16:30:57,815 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:58,818 - INFO - Received GET request for /api/status
+2024-11-01 16:30:58,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:58] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:30:59,813 - INFO - Received GET request for /api/status
+2024-11-01 16:30:59,814 - INFO - 127.0.0.1 - - [01/Nov/2024 16:30:59] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:00,816 - INFO - Received GET request for /api/status
+2024-11-01 16:31:00,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:00] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:01,817 - INFO - Received GET request for /api/status
+2024-11-01 16:31:01,821 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:01] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:02,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:02,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:02] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:03,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:03,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:03] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:04,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:04,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:04] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:05,816 - INFO - Received GET request for /api/status
+2024-11-01 16:31:05,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:05] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:06,815 - INFO - Received GET request for /api/status
+2024-11-01 16:31:06,816 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:06] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:07,814 - INFO - Received GET request for /api/status
+2024-11-01 16:31:07,816 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:07] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:08,819 - INFO - Received GET request for /api/status
+2024-11-01 16:31:08,821 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:08] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:09,816 - INFO - Received GET request for /api/status
+2024-11-01 16:31:09,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:09] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:09,924 - INFO - Received POST request to /api/analyze-text
+2024-11-01 16:31:09,924 - INFO - Text analysis started
+2024-11-01 16:31:09,925 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:09] "POST /api/analyze-text HTTP/1.1" 200 -
+2024-11-01 16:31:10,815 - INFO - Received GET request for /api/status
+2024-11-01 16:31:10,816 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:10] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:11,815 - INFO - Received GET request for /api/status
+2024-11-01 16:31:11,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:11] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:12,810 - INFO - Received GET request for /api/status
+2024-11-01 16:31:12,811 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:12] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:13,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:13,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:13] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:14,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:14,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:14] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:15,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:15,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:15] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:16,820 - INFO - Received GET request for /api/status
+2024-11-01 16:31:16,821 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:16] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:17,816 - INFO - Received GET request for /api/status
+2024-11-01 16:31:17,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:17] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:18,815 - INFO - Received GET request for /api/status
+2024-11-01 16:31:18,816 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:18] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:19,816 - INFO - Received GET request for /api/status
+2024-11-01 16:31:19,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:19] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:20,817 - INFO - Received GET request for /api/status
+2024-11-01 16:31:20,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:20] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:21,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:21,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:21] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:22,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:22,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:22] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:23,816 - INFO - Received GET request for /api/status
+2024-11-01 16:31:23,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:23] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:24,817 - INFO - Received GET request for /api/status
+2024-11-01 16:31:24,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:24] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:25,817 - INFO - Received GET request for /api/status
+2024-11-01 16:31:25,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:25] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:26,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:26,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:26] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:27,817 - INFO - Received GET request for /api/status
+2024-11-01 16:31:27,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:27] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:28,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:28,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:28] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:29,819 - INFO - Received GET request for /api/status
+2024-11-01 16:31:29,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:29] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:30,817 - INFO - Received GET request for /api/status
+2024-11-01 16:31:30,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:30] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:31,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:31,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:31] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:32,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:32,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:32] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:33,817 - INFO - Received GET request for /api/status
+2024-11-01 16:31:33,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:33] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:34,817 - INFO - Received GET request for /api/status
+2024-11-01 16:31:34,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:34] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:35,817 - INFO - Received GET request for /api/status
+2024-11-01 16:31:35,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:35] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:36,817 - INFO - Received GET request for /api/status
+2024-11-01 16:31:36,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:36] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:37,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:37,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:37] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:38,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:38,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:38] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:39,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:39,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:39] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:40,817 - INFO - Received GET request for /api/status
+2024-11-01 16:31:40,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:40] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:41,812 - INFO - Received GET request for /api/status
+2024-11-01 16:31:41,812 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:41] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:42,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:42,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:42] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:43,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:43,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:43] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:44,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:44,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:44] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:45,819 - INFO - Received GET request for /api/status
+2024-11-01 16:31:45,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:45] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:46,817 - INFO - Received GET request for /api/status
+2024-11-01 16:31:46,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:46] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:47,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:47,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:47] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:48,817 - INFO - Received GET request for /api/status
+2024-11-01 16:31:48,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:48] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:49,817 - INFO - Received GET request for /api/status
+2024-11-01 16:31:49,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:49] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:50,811 - INFO - Received GET request for /api/status
+2024-11-01 16:31:50,811 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:50] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:51,816 - INFO - Received GET request for /api/status
+2024-11-01 16:31:51,816 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:51] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:52,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:52,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:52] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:53,819 - INFO - Received GET request for /api/status
+2024-11-01 16:31:53,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:53] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:54,819 - INFO - Received GET request for /api/status
+2024-11-01 16:31:54,821 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:54] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:55,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:55,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:55] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:56,817 - INFO - Received GET request for /api/status
+2024-11-01 16:31:56,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:56] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:57,743 - INFO - Received GET request for /api/status
+2024-11-01 16:31:57,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:57,811 - INFO - Received GET request for /api/status
+2024-11-01 16:31:57,811 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:58,813 - INFO - Received GET request for /api/status
+2024-11-01 16:31:58,814 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:58] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:31:59,818 - INFO - Received GET request for /api/status
+2024-11-01 16:31:59,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:31:59] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:00,812 - INFO - Received GET request for /api/status
+2024-11-01 16:32:00,813 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:00] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:01,816 - INFO - Received GET request for /api/status
+2024-11-01 16:32:01,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:01] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:02,816 - INFO - Received GET request for /api/status
+2024-11-01 16:32:02,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:02] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:03,817 - INFO - Received GET request for /api/status
+2024-11-01 16:32:03,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:03] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:04,812 - INFO - Received GET request for /api/status
+2024-11-01 16:32:04,812 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:04] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:05,818 - INFO - Received GET request for /api/status
+2024-11-01 16:32:05,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:05] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:06,819 - INFO - Received GET request for /api/status
+2024-11-01 16:32:06,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:06] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:07,817 - INFO - Received GET request for /api/status
+2024-11-01 16:32:07,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:07] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:08,819 - INFO - Received GET request for /api/status
+2024-11-01 16:32:08,822 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:08] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:09,816 - INFO - Received GET request for /api/status
+2024-11-01 16:32:09,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:09] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:10,819 - INFO - Received GET request for /api/status
+2024-11-01 16:32:10,821 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:10] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:11,816 - INFO - Received GET request for /api/status
+2024-11-01 16:32:11,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:11] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:12,818 - INFO - Received GET request for /api/status
+2024-11-01 16:32:12,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:12] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:13,819 - INFO - Received GET request for /api/status
+2024-11-01 16:32:13,821 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:13] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:14,819 - INFO - Received GET request for /api/status
+2024-11-01 16:32:14,821 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:14] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:15,818 - INFO - Received GET request for /api/status
+2024-11-01 16:32:15,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:15] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:16,817 - INFO - Received GET request for /api/status
+2024-11-01 16:32:16,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:16] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:17,819 - INFO - Received GET request for /api/status
+2024-11-01 16:32:17,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:17] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:18,818 - INFO - Received GET request for /api/status
+2024-11-01 16:32:18,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:18] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:19,818 - INFO - Received GET request for /api/status
+2024-11-01 16:32:19,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:19] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:20,816 - INFO - Received GET request for /api/status
+2024-11-01 16:32:20,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:20] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:21,817 - INFO - Received GET request for /api/status
+2024-11-01 16:32:21,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:21] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:22,817 - INFO - Received GET request for /api/status
+2024-11-01 16:32:22,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:22] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:23,814 - INFO - Received GET request for /api/status
+2024-11-01 16:32:23,814 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:23] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:24,818 - INFO - Received GET request for /api/status
+2024-11-01 16:32:24,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:24] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:25,818 - INFO - Received GET request for /api/status
+2024-11-01 16:32:25,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:25] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:26,819 - INFO - Received GET request for /api/status
+2024-11-01 16:32:26,821 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:26] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:27,819 - INFO - Received GET request for /api/status
+2024-11-01 16:32:27,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:27] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:28,818 - INFO - Received GET request for /api/status
+2024-11-01 16:32:28,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:28] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:29,818 - INFO - Received GET request for /api/status
+2024-11-01 16:32:29,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:29] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:30,816 - INFO - Received GET request for /api/status
+2024-11-01 16:32:30,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:30] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:31,817 - INFO - Received GET request for /api/status
+2024-11-01 16:32:31,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:31] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:32,815 - INFO - Received GET request for /api/status
+2024-11-01 16:32:32,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:32] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:33,818 - INFO - Received GET request for /api/status
+2024-11-01 16:32:33,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:33] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:35,742 - INFO - Received GET request for /api/status
+2024-11-01 16:32:35,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:35] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:36,739 - INFO - Received GET request for /api/status
+2024-11-01 16:32:36,739 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:36] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:37,739 - INFO - Received GET request for /api/status
+2024-11-01 16:32:37,740 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:37] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:38,740 - INFO - Received GET request for /api/status
+2024-11-01 16:32:38,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:38] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:39,740 - INFO - Received GET request for /api/status
+2024-11-01 16:32:39,740 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:39] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:40,739 - INFO - Received GET request for /api/status
+2024-11-01 16:32:40,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:40] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:41,739 - INFO - Received GET request for /api/status
+2024-11-01 16:32:41,740 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:41] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:42,740 - INFO - Received GET request for /api/status
+2024-11-01 16:32:42,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:42] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:43,746 - INFO - Received GET request for /api/status
+2024-11-01 16:32:43,747 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:43] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:44,739 - INFO - Received GET request for /api/status
+2024-11-01 16:32:44,739 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:44] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:45,740 - INFO - Received GET request for /api/status
+2024-11-01 16:32:45,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:45] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:46,743 - INFO - Received GET request for /api/status
+2024-11-01 16:32:46,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:46] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:47,739 - INFO - Received GET request for /api/status
+2024-11-01 16:32:47,740 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:47] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:48,739 - INFO - Received GET request for /api/status
+2024-11-01 16:32:48,740 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:48] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:49,741 - INFO - Received GET request for /api/status
+2024-11-01 16:32:49,743 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:49] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:50,741 - INFO - Received GET request for /api/status
+2024-11-01 16:32:50,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:50] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:51,741 - INFO - Received GET request for /api/status
+2024-11-01 16:32:51,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:51] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:52,740 - INFO - Received GET request for /api/status
+2024-11-01 16:32:52,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:52] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:53,742 - INFO - Received GET request for /api/status
+2024-11-01 16:32:53,743 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:53] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:54,739 - INFO - Received GET request for /api/status
+2024-11-01 16:32:54,740 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:54] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:55,744 - INFO - Received GET request for /api/status
+2024-11-01 16:32:55,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:55] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:56,740 - INFO - Received GET request for /api/status
+2024-11-01 16:32:56,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:56] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:57,739 - INFO - Received GET request for /api/status
+2024-11-01 16:32:57,740 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:57,742 - INFO - Received GET request for /api/status
+2024-11-01 16:32:57,743 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:58,742 - INFO - Received GET request for /api/status
+2024-11-01 16:32:58,743 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:58] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:32:59,739 - INFO - Received GET request for /api/status
+2024-11-01 16:32:59,740 - INFO - 127.0.0.1 - - [01/Nov/2024 16:32:59] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:00,744 - INFO - Received GET request for /api/status
+2024-11-01 16:33:00,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:00] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:01,739 - INFO - Received GET request for /api/status
+2024-11-01 16:33:01,740 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:01] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:02,741 - INFO - Received GET request for /api/status
+2024-11-01 16:33:02,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:02] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:03,740 - INFO - Received GET request for /api/status
+2024-11-01 16:33:03,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:03] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:04,739 - INFO - Received GET request for /api/status
+2024-11-01 16:33:04,740 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:04] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:05,739 - INFO - Received GET request for /api/status
+2024-11-01 16:33:05,739 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:05] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:06,745 - INFO - Received GET request for /api/status
+2024-11-01 16:33:06,746 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:06] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:07,740 - INFO - Received GET request for /api/status
+2024-11-01 16:33:07,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:07] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:08,745 - INFO - Received GET request for /api/status
+2024-11-01 16:33:08,746 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:08] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:09,742 - INFO - Received GET request for /api/status
+2024-11-01 16:33:09,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:09] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:10,746 - INFO - Received GET request for /api/status
+2024-11-01 16:33:10,746 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:10] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:11,744 - INFO - Received GET request for /api/status
+2024-11-01 16:33:11,745 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:11] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:12,743 - INFO - Received GET request for /api/status
+2024-11-01 16:33:12,745 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:12] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:13,741 - INFO - Received GET request for /api/status
+2024-11-01 16:33:13,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:13] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:14,742 - INFO - Received GET request for /api/status
+2024-11-01 16:33:14,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:14] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:15,744 - INFO - Received GET request for /api/status
+2024-11-01 16:33:15,745 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:15] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:16,740 - INFO - Received GET request for /api/status
+2024-11-01 16:33:16,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:16] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:17,740 - INFO - Received GET request for /api/status
+2024-11-01 16:33:17,740 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:17] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:18,743 - INFO - Received GET request for /api/status
+2024-11-01 16:33:18,743 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:18] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:19,744 - INFO - Received GET request for /api/status
+2024-11-01 16:33:19,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:19] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:20,743 - INFO - Received GET request for /api/status
+2024-11-01 16:33:20,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:20] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:21,745 - INFO - Received GET request for /api/status
+2024-11-01 16:33:21,746 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:21] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:22,739 - INFO - Received GET request for /api/status
+2024-11-01 16:33:22,740 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:22] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:23,741 - INFO - Received GET request for /api/status
+2024-11-01 16:33:23,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:23] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:24,742 - INFO - Received GET request for /api/status
+2024-11-01 16:33:24,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:24] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:25,743 - INFO - Received GET request for /api/status
+2024-11-01 16:33:25,745 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:25] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:26,740 - INFO - Received GET request for /api/status
+2024-11-01 16:33:26,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:26] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:27,738 - INFO - Received GET request for /api/status
+2024-11-01 16:33:27,738 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:27] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:27,812 - INFO - Received GET request for /api/status
+2024-11-01 16:33:27,812 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:27] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:28,813 - INFO - Received GET request for /api/status
+2024-11-01 16:33:28,813 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:28] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:29,816 - INFO - Received GET request for /api/status
+2024-11-01 16:33:29,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:29] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:30,816 - INFO - Received GET request for /api/status
+2024-11-01 16:33:30,817 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:30] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:31,819 - INFO - Received GET request for /api/status
+2024-11-01 16:33:31,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:31] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:32,820 - INFO - Received GET request for /api/status
+2024-11-01 16:33:32,822 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:32] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:33,819 - INFO - Received GET request for /api/status
+2024-11-01 16:33:33,821 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:33] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:34,812 - INFO - Received GET request for /api/status
+2024-11-01 16:33:34,813 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:34] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:35,813 - INFO - Received GET request for /api/status
+2024-11-01 16:33:35,814 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:35] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:36,813 - INFO - Received GET request for /api/status
+2024-11-01 16:33:36,814 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:36] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:37,812 - INFO - Received GET request for /api/status
+2024-11-01 16:33:37,813 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:37] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:38,814 - INFO - Received GET request for /api/status
+2024-11-01 16:33:38,815 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:38] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:39,813 - INFO - Received GET request for /api/status
+2024-11-01 16:33:39,814 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:39] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:40,816 - INFO - Received GET request for /api/status
+2024-11-01 16:33:40,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:40] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:41,814 - INFO - Received GET request for /api/status
+2024-11-01 16:33:41,815 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:41] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:42,813 - INFO - Received GET request for /api/status
+2024-11-01 16:33:42,814 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:42] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:43,814 - INFO - Received GET request for /api/status
+2024-11-01 16:33:43,814 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:43] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:44,813 - INFO - Received GET request for /api/status
+2024-11-01 16:33:44,814 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:44] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:45,813 - INFO - Received GET request for /api/status
+2024-11-01 16:33:45,814 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:45] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:46,818 - INFO - Received GET request for /api/status
+2024-11-01 16:33:46,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:46] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:47,816 - INFO - Received GET request for /api/status
+2024-11-01 16:33:47,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:47] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:48,814 - INFO - Received GET request for /api/status
+2024-11-01 16:33:48,815 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:48] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:49,816 - INFO - Received GET request for /api/status
+2024-11-01 16:33:49,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:49] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:50,818 - INFO - Received GET request for /api/status
+2024-11-01 16:33:50,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:50] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:51,818 - INFO - Received GET request for /api/status
+2024-11-01 16:33:51,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:51] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:52,816 - INFO - Received GET request for /api/status
+2024-11-01 16:33:52,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:52] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:53,817 - INFO - Received GET request for /api/status
+2024-11-01 16:33:53,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:53] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:54,818 - INFO - Received GET request for /api/status
+2024-11-01 16:33:54,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:54] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:55,814 - INFO - Received GET request for /api/status
+2024-11-01 16:33:55,815 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:55] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:56,819 - INFO - Received GET request for /api/status
+2024-11-01 16:33:56,821 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:56] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:57,745 - INFO - Received GET request for /api/status
+2024-11-01 16:33:57,745 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:57,815 - INFO - Received GET request for /api/status
+2024-11-01 16:33:57,816 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:58,819 - INFO - Received GET request for /api/status
+2024-11-01 16:33:58,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:58] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:33:59,818 - INFO - Received GET request for /api/status
+2024-11-01 16:33:59,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:33:59] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:00,817 - INFO - Received GET request for /api/status
+2024-11-01 16:34:00,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:00] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:01,817 - INFO - Received GET request for /api/status
+2024-11-01 16:34:01,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:01] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:02,819 - INFO - Received GET request for /api/status
+2024-11-01 16:34:02,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:02] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:03,819 - INFO - Received GET request for /api/status
+2024-11-01 16:34:03,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:03] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:04,819 - INFO - Received GET request for /api/status
+2024-11-01 16:34:04,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:04] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:05,818 - INFO - Received GET request for /api/status
+2024-11-01 16:34:05,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:05] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:06,818 - INFO - Received GET request for /api/status
+2024-11-01 16:34:06,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:06] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:07,819 - INFO - Received GET request for /api/status
+2024-11-01 16:34:07,821 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:07] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:08,820 - INFO - Received GET request for /api/status
+2024-11-01 16:34:08,821 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:08] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:09,819 - INFO - Received GET request for /api/status
+2024-11-01 16:34:09,821 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:09] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:10,819 - INFO - Received GET request for /api/status
+2024-11-01 16:34:10,821 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:10] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:11,819 - INFO - Received GET request for /api/status
+2024-11-01 16:34:11,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:11] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:12,821 - INFO - Received GET request for /api/status
+2024-11-01 16:34:12,822 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:12] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:13,816 - INFO - Received GET request for /api/status
+2024-11-01 16:34:13,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:13] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:14,813 - INFO - Received GET request for /api/status
+2024-11-01 16:34:14,814 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:14] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:15,817 - INFO - Received GET request for /api/status
+2024-11-01 16:34:15,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:15] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:16,819 - INFO - Received GET request for /api/status
+2024-11-01 16:34:16,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:16] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:17,819 - INFO - Received GET request for /api/status
+2024-11-01 16:34:17,821 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:17] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:18,820 - INFO - Received GET request for /api/status
+2024-11-01 16:34:18,821 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:18] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:19,820 - INFO - Received GET request for /api/status
+2024-11-01 16:34:19,821 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:19] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:20,819 - INFO - Received GET request for /api/status
+2024-11-01 16:34:20,821 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:20] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:21,819 - INFO - Received GET request for /api/status
+2024-11-01 16:34:21,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:21] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:22,818 - INFO - Received GET request for /api/status
+2024-11-01 16:34:22,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:22] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:23,818 - INFO - Received GET request for /api/status
+2024-11-01 16:34:23,820 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:23] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:24,817 - INFO - Received GET request for /api/status
+2024-11-01 16:34:24,819 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:24] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:25,820 - INFO - Received GET request for /api/status
+2024-11-01 16:34:25,821 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:25] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:26,816 - INFO - Received GET request for /api/status
+2024-11-01 16:34:26,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:26] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:28,740 - INFO - Received GET request for /api/status
+2024-11-01 16:34:28,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:28] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:29,740 - INFO - Received GET request for /api/status
+2024-11-01 16:34:29,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:29] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:30,743 - INFO - Received GET request for /api/status
+2024-11-01 16:34:30,743 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:30] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:31,744 - INFO - Received GET request for /api/status
+2024-11-01 16:34:31,745 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:31] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:32,745 - INFO - Received GET request for /api/status
+2024-11-01 16:34:32,745 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:32] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:33,744 - INFO - Received GET request for /api/status
+2024-11-01 16:34:33,746 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:33] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:34,743 - INFO - Received GET request for /api/status
+2024-11-01 16:34:34,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:34] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:35,743 - INFO - Received GET request for /api/status
+2024-11-01 16:34:35,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:35] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:36,745 - INFO - Received GET request for /api/status
+2024-11-01 16:34:36,746 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:36] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:37,743 - INFO - Received GET request for /api/status
+2024-11-01 16:34:37,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:37] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:38,741 - INFO - Received GET request for /api/status
+2024-11-01 16:34:38,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:38] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:39,743 - INFO - Received GET request for /api/status
+2024-11-01 16:34:39,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:39] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:40,740 - INFO - Received GET request for /api/status
+2024-11-01 16:34:40,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:40] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:41,740 - INFO - Received GET request for /api/status
+2024-11-01 16:34:41,741 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:41] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:42,739 - INFO - Received GET request for /api/status
+2024-11-01 16:34:42,740 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:42] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:43,744 - INFO - Received GET request for /api/status
+2024-11-01 16:34:43,745 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:43] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:44,743 - INFO - Received GET request for /api/status
+2024-11-01 16:34:44,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:44] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:45,743 - INFO - Received GET request for /api/status
+2024-11-01 16:34:45,745 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:45] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:46,742 - INFO - Received GET request for /api/status
+2024-11-01 16:34:46,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:46] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:47,745 - INFO - Received GET request for /api/status
+2024-11-01 16:34:47,746 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:47] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:48,745 - INFO - Received GET request for /api/status
+2024-11-01 16:34:48,745 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:48] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:49,741 - INFO - Received GET request for /api/status
+2024-11-01 16:34:49,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:49] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:51,391 - INFO - Received GET request for /api/status
+2024-11-01 16:34:51,392 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:51] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:51,741 - INFO - Received GET request for /api/status
+2024-11-01 16:34:51,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:51] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:52,741 - INFO - Received GET request for /api/status
+2024-11-01 16:34:52,742 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:52] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:53,743 - INFO - Received GET request for /api/status
+2024-11-01 16:34:53,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:53] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:54,744 - INFO - Received GET request for /api/status
+2024-11-01 16:34:54,745 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:54] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:55,744 - INFO - Received GET request for /api/status
+2024-11-01 16:34:55,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:55] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:56,749 - INFO - Received GET request for /api/status
+2024-11-01 16:34:56,751 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:56] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:57,747 - INFO - Received GET request for /api/status
+2024-11-01 16:34:57,749 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:57,753 - INFO - Received GET request for /api/status
+2024-11-01 16:34:57,753 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:58,747 - INFO - Received GET request for /api/status
+2024-11-01 16:34:58,747 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:58] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:34:59,743 - INFO - Received GET request for /api/status
+2024-11-01 16:34:59,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:34:59] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:00,749 - INFO - Received GET request for /api/status
+2024-11-01 16:35:00,750 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:00] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:01,746 - INFO - Received GET request for /api/status
+2024-11-01 16:35:01,747 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:01] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:02,747 - INFO - Received GET request for /api/status
+2024-11-01 16:35:02,747 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:02] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:03,748 - INFO - Received GET request for /api/status
+2024-11-01 16:35:03,748 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:03] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:04,749 - INFO - Received GET request for /api/status
+2024-11-01 16:35:04,750 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:04] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:05,743 - INFO - Received GET request for /api/status
+2024-11-01 16:35:05,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:05] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:06,747 - INFO - Received GET request for /api/status
+2024-11-01 16:35:06,748 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:06] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:07,745 - INFO - Received GET request for /api/status
+2024-11-01 16:35:07,746 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:07] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:08,743 - INFO - Received GET request for /api/status
+2024-11-01 16:35:08,743 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:08] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:09,743 - INFO - Received GET request for /api/status
+2024-11-01 16:35:09,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:09] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:10,743 - INFO - Received GET request for /api/status
+2024-11-01 16:35:10,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:10] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:11,744 - INFO - Received GET request for /api/status
+2024-11-01 16:35:11,745 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:11] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:12,744 - INFO - Received GET request for /api/status
+2024-11-01 16:35:12,745 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:12] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:13,744 - INFO - Received GET request for /api/status
+2024-11-01 16:35:13,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:13] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:14,744 - INFO - Received GET request for /api/status
+2024-11-01 16:35:14,745 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:14] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:15,744 - INFO - Received GET request for /api/status
+2024-11-01 16:35:15,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:15] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:16,744 - INFO - Received GET request for /api/status
+2024-11-01 16:35:16,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:16] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:17,744 - INFO - Received GET request for /api/status
+2024-11-01 16:35:17,745 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:17] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:18,744 - INFO - Received GET request for /api/status
+2024-11-01 16:35:18,745 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:18] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:19,745 - INFO - Received GET request for /api/status
+2024-11-01 16:35:19,745 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:19] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:20,743 - INFO - Received GET request for /api/status
+2024-11-01 16:35:20,744 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:20] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:21,753 - INFO - Received GET request for /api/status
+2024-11-01 16:35:21,754 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:21] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:22,747 - INFO - Received GET request for /api/status
+2024-11-01 16:35:22,748 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:22] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:23,746 - INFO - Received GET request for /api/status
+2024-11-01 16:35:23,746 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:23] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:24,750 - INFO - Received GET request for /api/status
+2024-11-01 16:35:24,751 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:24] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:25,746 - INFO - Received GET request for /api/status
+2024-11-01 16:35:25,747 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:25] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:26,746 - INFO - Received GET request for /api/status
+2024-11-01 16:35:26,747 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:26] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:57,723 - INFO - Received GET request for /api/status
+2024-11-01 16:35:57,724 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:57,750 - INFO - Received GET request for /api/status
+2024-11-01 16:35:57,751 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:57,818 - INFO - Received GET request for /api/status
+2024-11-01 16:35:57,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:58,818 - INFO - Received GET request for /api/status
+2024-11-01 16:35:58,818 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:58] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:35:59,823 - INFO - Received GET request for /api/status
+2024-11-01 16:35:59,824 - INFO - 127.0.0.1 - - [01/Nov/2024 16:35:59] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:36:57,751 - INFO - Received GET request for /api/status
+2024-11-01 16:36:57,751 - INFO - 127.0.0.1 - - [01/Nov/2024 16:36:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:37:57,751 - INFO - Received GET request for /api/status
+2024-11-01 16:37:57,751 - INFO - 127.0.0.1 - - [01/Nov/2024 16:37:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:38:57,754 - INFO - Received GET request for /api/status
+2024-11-01 16:38:57,754 - INFO - 127.0.0.1 - - [01/Nov/2024 16:38:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:39:57,753 - INFO - Received GET request for /api/status
+2024-11-01 16:39:57,754 - INFO - 127.0.0.1 - - [01/Nov/2024 16:39:57] "GET /api/status HTTP/1.1" 200 -
+2024-11-01 16:40:57,751 - INFO - Received GET request for /api/status
+2024-11-01 16:40:57,752 - INFO - 127.0.0.1 - - [01/Nov/2024 16:40:57] "GET /api/status HTTP/1.1" 200 -
